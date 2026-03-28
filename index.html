@@ -235,9 +235,7 @@
     animation: heroIn 1.4s ease forwards;
   }
 
-  .stat {
-    text-align: right;
-  }
+  .stat { text-align: right; }
 
   .stat-num {
     font-family: 'Playfair Display', serif;
@@ -275,10 +273,7 @@
     text-transform: uppercase;
   }
 
-  .scroll-hint::after {
-    content: '↓';
-    font-size: 1rem;
-  }
+  .scroll-hint::after { content: '↓'; font-size: 1rem; }
 
   @keyframes bounce {
     0%, 100% { transform: translateX(-50%) translateY(0); }
@@ -301,10 +296,7 @@
     background: linear-gradient(90deg, transparent, rgba(212, 168, 67, 0.4), transparent);
   }
 
-  .divider-icon {
-    color: var(--gold);
-    font-size: 1.2rem;
-  }
+  .divider-icon { color: var(--gold); font-size: 1.2rem; }
 
   /* SECTION STYLES */
   section { padding: 6rem 4rem; }
@@ -344,10 +336,6 @@
     font-size: 1rem;
   }
 
-  .about-visual {
-    position: relative;
-  }
-
   .about-card {
     background: linear-gradient(135deg, #2D1A0E, #1A1008);
     border: 1px solid rgba(212, 168, 67, 0.2);
@@ -358,8 +346,7 @@
   .about-card::before {
     content: '';
     position: absolute;
-    top: -1px; left: 2rem;
-    right: 2rem;
+    top: -1px; left: 2rem; right: 2rem;
     height: 3px;
     background: linear-gradient(90deg, transparent, var(--gold), transparent);
   }
@@ -371,11 +358,7 @@
     gap: 1.5rem;
   }
 
-  .promise-list li {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+  .promise-list li { display: flex; align-items: flex-start; gap: 1rem; }
 
   .promise-icon {
     width: 2rem;
@@ -390,23 +373,11 @@
     margin-top: 0.1rem;
   }
 
-  .promise-list strong {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 0.2rem;
-    color: var(--cream);
-  }
-
-  .promise-list span {
-    font-size: 0.85rem;
-    color: rgba(250, 246, 240, 0.55);
-    line-height: 1.6;
-  }
+  .promise-list strong { display: block; font-weight: 600; margin-bottom: 0.2rem; color: var(--cream); }
+  .promise-list span { font-size: 0.85rem; color: rgba(250, 246, 240, 0.55); line-height: 1.6; }
 
   /* MENU */
-  .menu-section {
-    background: #120A04;
-  }
+  .menu-section { background: #120A04; }
 
   .menu-header {
     display: flex;
@@ -417,10 +388,7 @@
     gap: 1rem;
   }
 
-  .menu-tabs {
-    display: flex;
-    gap: 0.5rem;
-  }
+  .menu-tabs { display: flex; gap: 0.5rem; }
 
   .tab {
     background: transparent;
@@ -436,11 +404,7 @@
     transition: all 0.2s;
   }
 
-  .tab.active, .tab:hover {
-    background: var(--red);
-    border-color: var(--red);
-    color: white;
-  }
+  .tab.active, .tab:hover { background: var(--red); border-color: var(--red); color: white; }
 
   .menu-grid {
     display: grid;
@@ -457,10 +421,7 @@
     cursor: default;
   }
 
-  .menu-item:hover {
-    border-color: rgba(212, 168, 67, 0.35);
-    transform: translateY(-3px);
-  }
+  .menu-item:hover { border-color: rgba(212, 168, 67, 0.35); transform: translateY(-3px); }
 
   .menu-item-header {
     display: flex;
@@ -478,18 +439,8 @@
     line-height: 1.3;
   }
 
-  .menu-item-price {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--gold);
-    white-space: nowrap;
-  }
-
-  .menu-item-desc {
-    font-size: 0.82rem;
-    color: rgba(250, 246, 240, 0.5);
-    line-height: 1.7;
-  }
+  .menu-item-price { font-size: 0.9rem; font-weight: 600; color: var(--gold); white-space: nowrap; }
+  .menu-item-desc { font-size: 0.82rem; color: rgba(250, 246, 240, 0.5); line-height: 1.7; }
 
   .menu-item-tag {
     display: inline-block;
@@ -503,23 +454,13 @@
     margin-top: 0.8rem;
   }
 
-  .menu-category {
-    display: none;
-  }
-
-  .menu-category.active {
-    display: contents;
-  }
+  .menu-category { display: none; }
+  .menu-category.active { display: contents; }
 
   /* REVIEWS */
-  .reviews {
-    background: linear-gradient(180deg, #120A04 0%, var(--dark) 100%);
-  }
+  .reviews { background: linear-gradient(180deg, #120A04 0%, var(--dark) 100%); }
 
-  .reviews-header {
-    text-align: center;
-    margin-bottom: 3rem;
-  }
+  .reviews-header { text-align: center; margin-bottom: 3rem; }
 
   .rating-display {
     display: flex;
@@ -529,11 +470,7 @@
     margin-bottom: 0.5rem;
   }
 
-  .stars {
-    color: var(--gold);
-    font-size: 1.2rem;
-    letter-spacing: 0.1em;
-  }
+  .stars { color: var(--gold); font-size: 1.2rem; letter-spacing: 0.1em; }
 
   .rating-number {
     font-family: 'Playfair Display', serif;
@@ -542,11 +479,7 @@
     color: var(--gold);
   }
 
-  .rating-count {
-    font-size: 0.8rem;
-    color: rgba(250, 246, 240, 0.45);
-    letter-spacing: 0.05em;
-  }
+  .rating-count { font-size: 0.8rem; color: rgba(250, 246, 240, 0.45); letter-spacing: 0.05em; }
 
   .reviews-grid {
     display: grid;
@@ -567,8 +500,7 @@
   .review-card::before {
     content: '"';
     position: absolute;
-    top: 1rem;
-    right: 1.5rem;
+    top: 1rem; right: 1.5rem;
     font-family: 'Playfair Display', serif;
     font-size: 4rem;
     line-height: 1;
@@ -576,12 +508,7 @@
     pointer-events: none;
   }
 
-  .review-stars {
-    color: var(--gold);
-    font-size: 0.8rem;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.8rem;
-  }
+  .review-stars { color: var(--gold); font-size: 0.8rem; letter-spacing: 0.1em; margin-bottom: 0.8rem; }
 
   .review-text {
     font-size: 0.88rem;
@@ -591,29 +518,12 @@
     font-style: italic;
   }
 
-  .review-author {
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--gold);
-    opacity: 0.8;
-  }
+  .review-author { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); opacity: 0.8; }
 
   /* INFO */
-  .info-section {
-    background: #0E0703;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0;
-  }
+  .info-section { background: #0E0703; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
 
-  .info-block {
-    padding: 4rem 3rem;
-    border-right: 1px solid rgba(212, 168, 67, 0.1);
-    position: relative;
-  }
-
+  .info-block { padding: 4rem 3rem; border-right: 1px solid rgba(212, 168, 67, 0.1); position: relative; }
   .info-block:last-child { border-right: none; }
 
   .info-block::before {
@@ -624,26 +534,9 @@
     background: linear-gradient(90deg, transparent, rgba(212, 168, 67, 0.3), transparent);
   }
 
-  .info-block h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-    color: var(--gold);
-  }
-
-  .info-block p, .info-block li {
-    font-size: 0.88rem;
-    color: rgba(250, 246, 240, 0.65);
-    line-height: 2;
-    list-style: none;
-  }
-
-  .info-block strong {
-    color: var(--cream);
-    font-weight: 500;
-  }
-
+  .info-block h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; margin-bottom: 1.5rem; color: var(--gold); }
+  .info-block p, .info-block li { font-size: 0.88rem; color: rgba(250, 246, 240, 0.65); line-height: 2; list-style: none; }
+  .info-block strong { color: var(--cream); font-weight: 500; }
   .info-block ul { display: flex; flex-direction: column; gap: 0.3rem; }
 
   .info-block .phone-link {
@@ -659,36 +552,13 @@
   .info-block .phone-link:hover { opacity: 0.7; }
 
   /* FOOTER */
-  footer {
-    background: #080401;
-    text-align: center;
-    padding: 3rem 4rem;
-    border-top: 1px solid rgba(212, 168, 67, 0.1);
-  }
+  footer { background: #080401; text-align: center; padding: 3rem 4rem; border-top: 1px solid rgba(212, 168, 67, 0.1); }
 
-  .footer-logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
-    font-weight: 900;
-    color: var(--gold);
-    margin-bottom: 0.5rem;
-  }
-
+  .footer-logo { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 900; color: var(--gold); margin-bottom: 0.5rem; }
   .footer-logo em { color: var(--cream); font-style: italic; }
+  footer p { font-size: 0.78rem; color: rgba(250, 246, 240, 0.3); letter-spacing: 0.05em; margin-top: 1.5rem; }
 
-  footer p {
-    font-size: 0.78rem;
-    color: rgba(250, 246, 240, 0.3);
-    letter-spacing: 0.05em;
-    margin-top: 1.5rem;
-  }
-
-  .footer-links {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 1rem;
-  }
+  .footer-links { display: flex; justify-content: center; gap: 2rem; margin-top: 1rem; }
 
   .footer-links a {
     font-size: 0.72rem;
@@ -1129,18 +999,18 @@
   <div class="reviews-grid">
     <div class="review-card">
       <div class="review-stars">★★★★★</div>
-      <p class="review-text">Hands down the best phở in Las Vegas. The broth is absolutely incredible — you can tell it's been simmered for hours. I come here at least twice a month and it never disappoints.</p>
-      <span class="review-author">— Jennifer T.</span>
+      <p class="review-text">Truly deserving of 5 stars for the level of service, cleanliness, and authentic taste. Everyone in our party was a fan from baby to in-laws. Would confidently recommend to Pho lovers or people new to Pho. It is the Pho King best!</p>
+      <span class="review-author">— Damen S. · Local Guide</span>
+    </div>
+    <div class="review-card">
+      <div class="review-stars">★★★★☆</div>
+      <p class="review-text">Tried out some pho in Vegas! I had the pho with short rib — definitely on the pricier side, but the broth was solid. Quite a bit of seating in the area and easy parking in the plaza.</p>
+      <span class="review-author">— Arthur T. · Local Guide</span>
     </div>
     <div class="review-card">
       <div class="review-stars">★★★★★</div>
-      <p class="review-text">The fresh spring rolls are amazing and the service is so warm and friendly. Portions are generous, prices are fair, and the food is consistently excellent every visit.</p>
-      <span class="review-author">— Marcus R.</span>
-    </div>
-    <div class="review-card">
-      <div class="review-stars">★★★★★</div>
-      <p class="review-text">We drove 30 minutes just to come here and it was 100% worth it. The special combo phở is a dream — so flavorful. This is now our go-to Vietnamese spot in the valley.</p>
-      <span class="review-author">— Diana & Kevin L.</span>
+      <p class="review-text">Been coming here for years and the food is simply amazing. Love their spicy beef broth pho! SUPER FIRE!!</p>
+      <span class="review-author">— Jonathan O. · Local Guide</span>
     </div>
   </div>
 </section>
@@ -1167,7 +1037,7 @@
     <h3>Contact</h3>
     <p>Questions, large parties, or catering inquiries — we'd love to hear from you.</p>
     <a href="tel:7027902003" class="phone-link">(702) 790-2003</a>
-    <p style="margin-top:0.8rem; font-size:0.8rem; color:rgba(250,246,240,0.4);"><a href="mailto:phokinglv@gmail.com" class="__cf_email__" data-cfemail="73031b1c181a1d141f0533141e121a1f5d101c1e">phokinglv@gmail.com</a></p>
+    <p style="margin-top:0.8rem; font-size:0.8rem; color:rgba(250,246,240,0.4);"><a href="mailto:phokinglv@gmail.com" style="color:inherit;">phokinglv@gmail.com</a></p>
   </div>
 </section>
 
@@ -1184,7 +1054,7 @@
   <p>© 2026 Phở King Vietnamese Kitchen · Las Vegas, NV · Established 2017</p>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
   function showCategory(cat, btn) {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     btn.classList.add('active');
@@ -1193,7 +1063,6 @@
     });
   }
 
-  // Fade-in on scroll
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) {
